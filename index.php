@@ -26,7 +26,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // Output the message
     while($row = $result->fetch_assoc()) {
-        echo "<h1>" . $row["content"] . "</h1>";
+        echo "" . $row["content"] . "";
     }
 } else {
     echo "No message found.";
