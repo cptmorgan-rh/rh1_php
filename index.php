@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 }
 
 // SQL query to fetch the message
-$sql = "SELECT content FROM message WHERE id = 1"; // Assuming only one message in the table
+$sql = "SELECT content FROM message WHERE id = 4"; // Assuming only one message in the table
 $result = $conn->query($sql);
 
 // Check if the message exists
