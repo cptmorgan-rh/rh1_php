@@ -1,8 +1,5 @@
--- Create the database
-CREATE DATABASE redhatone;
-
 -- Use the created database
-USE redhatone;
+USE sampledb;
 
 -- Create the table 'message' with a column 'content' to store the message
 CREATE TABLE message (
