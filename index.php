@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
 $servername = "mysql";  // Usually "localhost" if the database is on the same server
-$username = "userXKX";         // Replace with your MySQL username
-$mysqlPassword = getenv('MYSQL_PASSWORD'); // Get the MySQL password from the environment variable
-$dbname = "sampledb";      // The database name
+$username = "<replace_me>";         // Replace with your MySQL username
+$mysqlPassword = "<replace_me>"; // Get the MySQL password from the environment variable
+$dbname = "<replace_me>";      // The database name
 
 // Check if the password environment variable is set
 if ($mysqlPassword == false) {
